@@ -27,7 +27,7 @@ Se utilizan **tres servicios** orquestados con Docker Compose:
 ├── Dockerfile
 └── app
     └── main.py
-
+---
 ## Descripción de los componentes
 docker-compose.yml
 
@@ -41,7 +41,7 @@ Interfaz web para administrar la base de datos MySQL.
 
 python_client
 Contenedor Python que se construye a partir del Dockerfile y se conecta a MySQL.
-
+---
 ## Dockerfile
 
 Utiliza la imagen oficial python:3.10.
