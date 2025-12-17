@@ -75,6 +75,8 @@ Este proyecto tiene fines educativos y de prueba, y sirve como base para:
 .
 ├── app/
 │   └── main.py
+├── python/
+│   └── Dockerfile.py
 ├── docker-compose.yml
 └── README.md
 ```
